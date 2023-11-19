@@ -8,15 +8,15 @@ headshot: /images/headshot.jpg
 
 ### Professional
 
-I am a Staff Software Engineer at [Brex](https://www.brex.com/), and the tech lead of the Data Storage team. As part of Data Storage, I provide organizational guidance about database access and system design, build automation and infrastructure, perform query optimization across hundreds of databases, and more.
+I am a Staff Software Engineer at [Brex](https://www.brex.com/), and the tech lead of the Data Storage team. As part of Data Storage, I provide organizational guidance about database access and system design, build automation and infrastructure, and perform query optimization across hundreds of databases.
 
 Beyond my 9-5, I am an avid public speaker in the Postgres world. I love nerding out about technical writing, exchanging on-call war stories, and the zen feeling of marking JIRA tickets as "Complete".
 
 ### Personal
 
-I was born and raised in Seattle, and recently moved back following several years living across Europe & Asia. In my spare time, I love to read, spend time with my friends and family, DJ jazz music, and dance lindy hop.
+I was born and raised in Seattle, and recently moved back after several years living across Europe & Asia. In my spare time, I love to read, spend time with my friends and family, DJ jazz music, and dance lindy hop.
 
-Some of my favorite things include: when cats choose to sit on your lap, the jazz standard "Moonglow", hosting parties, anything Legend of Zelda, solo travel, coffee, and people who write good documentation.
+Some of my favorite things include: when cat a chooses to sit on my lap, the jazz standard "Moonglow", hosting parties, anything Legend of Zelda, solo travel, coffee, and people who write good documentation.
 
 <div id="stats" class="hidden">
 
