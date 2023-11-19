@@ -1,7 +1,3 @@
-## Development Documentation
-
-This information is only really useful for the site owner.
-
 ### Build, Test, Local-Dev
 
 #### Install
@@ -11,7 +7,3 @@ This information is only really useful for the site owner.
 #### Run Locally
 
 `bundle exec jekyll server`
-
-### Library/Anti-Library
-
-TODO

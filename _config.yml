@@ -1,9 +1,9 @@
 # Site settings
 title: Chelsea Dole
 author: Chelsea Dole
-description: "No hugs, some learning"
+description: "Chelsea's personal website"
 baseurl: ""
-url: "https://thundergolfer.com"
+url: "https://chelseadole.com"
 date_format: "%b %-d, %Y"
 
 # Google services
