@@ -49,22 +49,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Inter:300,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
+    <link href="www.fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do" rel="stylesheet" type="text/html">
     {% if site.show_social_icons or site.show_sharing_icons %}
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     {% endif %}
 
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+    </style>
+
     {% if site.enable_mathjax or page.mathjax == true %}
     <!-- MathJax -->
     <script async type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
-
-    {% if site.google_verification %}
-    <!-- Google Verification -->
-      <meta name="google-site-verification" content="{{ site.google_verification }}" />
-    {% endif %}
-    {% if site.bing_verification %}
-    <!-- Bing Verification -->
-      <meta name="msvalidate.01" content="{{ site.bing_verification }}" />
     {% endif %}
 
     <!-- Open Graph -->
