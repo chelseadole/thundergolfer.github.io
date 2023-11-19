@@ -1,7 +1,7 @@
 # Site settings
 title: Chelsea Dole
 author: Chelsea Dole
-description: "Chelsea's personal website"
+description: "Chelsea's personal site"
 baseurl: ""
 url: "https://chelseadole.com"
 date_format: "%b %-d, %Y"
