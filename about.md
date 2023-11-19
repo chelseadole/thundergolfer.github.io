@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /about/
-title: A little bit about me.
+title: A little bit about me
 tags: about
 headshot: /images/headshot.jpg
 ---
@@ -14,9 +14,9 @@ Beyond my 9-5, I am an avid public speaker in the Postgres world. I love nerding
 
 ### Personal
 
-I was born and raised in Seattle, and recently moved back following several years living across multiple continents. In my spare time, I love to read, spend time with my friends and family, listen to podcasts, DJ jazz music, and dance lindy hop.
+I was born and raised in Seattle, and recently moved back following several years living across Europe & Asia. In my spare time, I love to read, spend time with my friends and family, DJ jazz music, and dance lindy hop.
 
-Some of my favorite things include: big fuzzy dogs, the jazz standard "Moonglow", hosting parties, anything Legend of Zelda, solo travel, coffee, and people who write good documentation.
+Some of my favorite things include: when cats choose to sit on your lap, the jazz standard "Moonglow", hosting parties, anything Legend of Zelda, solo travel, coffee, and people who write good documentation.
 
 <div id="stats" class="hidden">
 
