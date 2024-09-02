@@ -8,13 +8,13 @@ headshot: /images/headshot.jpg
 
 ### Professional
 
-I am a Database Engineer at [Citadel](https://www.citadel.com/). At Citadel, I provide organizational guidance about database access and system design, build automation and infrastructure, and optimize performance.
+I am a Database Engineer at [Citadel](https://www.citadel.com/).
 
 Beyond my 9-5, I am an avid public speaker in the Postgres world. I love nerding out about technical writing, exchanging on-call war stories, and the zen feeling of marking JIRA tickets as "Complete".
 
 ### Personal
 
-I was born and raised in Seattle, and recently moved to New York City. In my spare time, I love to read, spend time with my friends and family, DJ jazz music, and dance lindy hop.
+I was born and raised in Seattle, and now live in New York City. In my spare time, I love to read, spend time with my friends and family, DJ jazz music, and dance lindy hop.
 
 Some of my favorite things include: when cat a chooses to sit on my lap, the jazz standard "Moonglow", hosting parties, anything Legend of Zelda, solo travel, coffee, and people who write good documentation.
 
