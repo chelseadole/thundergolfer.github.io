@@ -10,13 +10,13 @@ headshot: /images/headshot.jpg
 
 I am a Database Engineer at [Citadel](https://www.citadel.com/).
 
-Beyond my 9-5, I am an avid public speaker in the Postgres world. I love nerding out about technical writing, exchanging on-call war stories, and the zen feeling of marking JIRA tickets as "Complete".
+Beyond my 9-5, I am an avid public speaker in the Postgres world and an organizer for [PGConf NYC](https://2025.pgconf.nyc/). I love nerding out about technical writing, exchanging on-call war stories, and learning from the people around me.
 
 ### Personal
 
 I was born and raised in Seattle, and now live in New York City. In my spare time, I love to read, spend time with my friends and family, DJ jazz music, and dance lindy hop.
 
-Some of my favorite things include: when cat a chooses to sit on my lap, the jazz standard "Moonglow", hosting parties, anything Legend of Zelda, solo travel, coffee, and people who write good documentation.
+Some of my favorite things include: when cat a chooses to sit on my lap, the jazz standard "Moonglow", hosting parties, travel, and people who write good documentation.
 
 <div id="stats" class="hidden">
 
