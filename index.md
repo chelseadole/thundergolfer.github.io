@@ -5,7 +5,7 @@ tags: home
 
 # Chelsea Dole
 
-### Software engineer, Postgres DBA, Writer.
+### Database Engineer, Public Speaker, Book Lover.
 
 <br>
 
