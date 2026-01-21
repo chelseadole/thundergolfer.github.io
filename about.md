@@ -10,7 +10,7 @@ headshot: /images/headshot.jpg
 
 I am a Database Engineer at [Citadel](https://www.citadel.com/). Previous to my current role, I specialized in backend engineering, infrastructure, and Postgres platform building/database engineering within the startup world - most recently at [Brex](https://www.brex.com/) and [Coffee Meets Bagel](https://coffeemeetsbagel.com/).
 
-Beyond my 9-5, I am an organizer for [PostgresConf NYC](https://2025.pgconf.nyc/) and frequently speak at conferences about database platform engineering.
+Beyond my 9–5, I’m an organizer for [PostgresConf NYC](https://2025.pgconf.nyc/) and speak frequently at conferences about Postgres, database scaling, and platform engineering.
 
 ### Personal
 
