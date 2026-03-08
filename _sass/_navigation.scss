@@ -24,6 +24,178 @@ ul.nav {
   text-align: center;
 }
 
+#main-menu {
+  z-index: 100;
+  position: relative;
+}
+
+/* Hamburger toggle - visible on mobile */
+#main-menu > input[type=checkbox] {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  width: 2.75rem;
+  height: 2.75rem;
+  z-index: 1000;
+}
+
+#main-menu > label.menu-toggle {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  z-index: 999;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+#main-menu > label.menu-toggle:hover {
+  background-color: $light-gray;
+}
+
+/* Hamburger icon using CSS */
+#main-menu > label.menu-toggle > span,
+#main-menu > label.menu-toggle > span::before,
+#main-menu > label.menu-toggle > span::after {
+  display: block;
+  width: 1.5rem;
+  height: 2px;
+  background-color: $header-fg;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+#main-menu > label.menu-toggle > span::before,
+#main-menu > label.menu-toggle > span::after {
+  content: '';
+  position: absolute;
+}
+
+#main-menu > label.menu-toggle > span::before {
+  transform: translateY(-0.5rem);
+}
+
+#main-menu > label.menu-toggle > span::after {
+  transform: translateY(0.5rem);
+}
+
+/* X icon when checked */
+#main-menu > input[type=checkbox]:checked ~ label.menu-toggle > span {
+  background-color: transparent;
+}
+
+#main-menu > input[type=checkbox]:checked ~ label.menu-toggle > span::before {
+  transform: rotate(45deg);
+}
+
+#main-menu > input[type=checkbox]:checked ~ label.menu-toggle > span::after {
+  transform: rotate(-45deg);
+}
+
+/* Mobile menu pane - full screen overlay */
+#main-menu > .menu-pane {
+  padding: 5rem 1.5rem 2rem;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: $header-bg;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  overflow-y: auto;
+}
+
+#main-menu > input[type=checkbox]:checked ~ .menu-pane {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+#main-menu > .menu-pane > ul {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu > .menu-pane ul > li {
+  list-style: none;
+  margin: 4vh auto;
+}
+
+#main-menu > .menu-pane ul > li > a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  color: $header-fg;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#main-menu > .menu-pane ul > li > a:hover {
+  background-color: $light-gray;
+  color: $blue;
+}
+
+/* Desktop styles - show menu inline, hide hamburger */
+@media (min-width: 768px) {
+  #main-menu > label.menu-toggle {
+    display: none !important;
+  }
+
+  #main-menu > .menu-pane {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    padding: 0;
+    background: transparent;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-menu > .menu-pane > ul {
+    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #main-menu > .menu-pane ul > li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+  }
+
+  #main-menu > .menu-pane ul > li > a {
+    font-size: inherit;
+    padding: 0;
+    color: $header-fg;
+  }
+
+  #main-menu > .menu-pane ul > li > a:hover {
+    background-color: transparent;
+    color: $blue;
+  }
+}
+
 #main-menu li {
   display: inline-block;
   padding: 10px 20px;
