@@ -1,17 +1,27 @@
 /* Styles specific to the about page picture */
+/* default to the smaller size so transitioning through 512px doesn't
+   trigger an unexpected jump */
 .headshot-picture,
 .headshot-picture img {
-  max-width: 250px;
+  max-width: 150px;
   float: right;
   margin: 1.25em 0 1.25em 1.25em; /* ensure space between image and text */
   display: block;
-  border-radius: 1em;            /* round the corners at full size */
+  border-radius: 1em;            /* rounded corners for rectangular asset */
+}
+
+/* increase size only on medium+ viewports */
+@media screen and (min-width: $viewport-medium) {
+  .headshot-picture,
+  .headshot-picture img {
+    max-width: 250px;
+  }
 }
 
 @media screen and (max-width: $viewport-small) {
   .headshot-picture,
   .headshot-picture img {
-    max-width: 150px;
+    /* still 150px, but center and make circle image take over */
     float: none;
     margin: 1.25em auto 0;
     border-radius: 50%;          /* circle asset already round, but keep for consistency */
