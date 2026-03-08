@@ -2,10 +2,16 @@
 layout: default
 ---
 <div>
-  <img 
-    style="border-radius: 1em; max-width: 250px; float: right; margin: 1.25em;" 
-    src="{{ page.headshot }}"
-  >
+  <picture class="headshot-picture">
+    <!-- circle asset for small viewports, rectangle otherwise -->
+    <source media="(max-width: 32em)"
+            srcset="/images/headshot-circle.png">
+    <img
+      class="headshot"
+      src="{{ page.headshot }}"
+      alt="Profile picture"
+    >
+  </picture>
 </div>
 <div class="post">
   <header class="post-header">
