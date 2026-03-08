@@ -10,7 +10,7 @@ headshot: /images/headshot.jpg
 
 I am the Postgres Platform Lead at [Citadel](https://www.citadel.com/), specializing in database infrastructure and platform engineering.
 
-Previous to my current role, I worked as a database infrastructure and backend engineer in the startup world, mostly recently at [Brex](https://www.brex.com/) and [Coffee Meets Bagel](https://coffeemeetsbagel.com/). Beyond my 9–5, I’m an organizer for [Postgres Summit US](https://2025.postgressummit.us/) and speak frequently at conferences about Postgres and database scaling.
+Previous to my current role, I worked as a database infrastructure and backend engineer in the startup world, mostly recently at [Brex](https://www.brex.com/) and [Coffee Meets Bagel](https://coffeemeetsbagel.com/). Beyond my 9–5, I’m an organizer for [Postgres Summit US](https://2026.postgressummit.us/) and speak frequently at conferences about Postgres and database scaling.
 
 ### Personal
 
