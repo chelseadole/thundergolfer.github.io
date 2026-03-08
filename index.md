@@ -20,8 +20,7 @@ tags: home
   }
   h3 {
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 10%;
     color: #DF314D;
   }
 </style>

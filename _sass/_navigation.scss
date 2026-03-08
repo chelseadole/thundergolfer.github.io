@@ -34,23 +34,27 @@ ul.nav {
   opacity: 0;
   cursor: pointer;
   position: absolute;
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 3.5rem;
+  height: 3.5rem;
   z-index: 1000;
+  right: 0;
+  top: 0;
 }
 
 #main-menu > label.menu-toggle {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 3.5rem;
+  height: 3.5rem;
   z-index: 999;
   cursor: pointer;
   background-color: transparent;
   border-radius: 0.5rem;
   transition: background-color 0.2s ease;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 #main-menu > label.menu-toggle:hover {
@@ -135,7 +139,29 @@ ul.nav {
 
 #main-menu > .menu-pane ul > li {
   list-style: none;
-  margin: 4vh auto;
+  margin: 0;
+  width: 100%;
+}
+
+/* Mobile only - vertical menu */
+@media (max-width: 767px) {
+  #main-menu > .menu-pane > ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #main-menu > .menu-pane ul > .flexbox-parent {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  #main-menu > .menu-pane ul > .flexbox-parent > li {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    display: block !important;
+  }
 }
 
 #main-menu > .menu-pane ul > li > a {
